@@ -1,0 +1,106 @@
+{
+  "stacked_rn": {
+    "aggregation": "mean",
+    "params": 46816,
+    "fighting": {
+      "auroc": 0.47207547169811326,
+      "auroc_ci": [
+        0.36146226415094335,
+        0.5781698113207544
+      ],
+      "auprc": 0.4956747509546113,
+      "auprc_chance": 0.5145631067961165
+    },
+    "assault": {
+      "auroc": 0.5032,
+      "auroc_ci": [
+        0.38758,
+        0.6112
+      ],
+      "auprc": 0.5374566348371239,
+      "auprc_chance": 0.5
+    },
+    "pooled": {
+      "auroc": 0.48718446601941745,
+      "auroc_ci": [
+        0.3924223300970874,
+        0.5860291262135922
+      ],
+      "auprc": 0.6754794337839476,
+      "auprc_chance": 0.673202614379085
+    },
+    "duration_only_auroc_pooled": 0.6103883495145631,
+    "threshold": 0.012048921547830105,
+    "confusion": [
+      [
+        44,
+        6
+      ],
+      [
+        92,
+        11
+      ]
+    ],
+    "precision": 0.6470588235294118,
+    "recall": 0.10679611650485436,
+    "f1_pos": 0.18333333333333332,
+    "macro_f1": 0.3282258064516129,
+    "normal_score_vs_eventrate_spearman": -0.2799039615846338,
+    "latency_ms_per_clip": 0.8756436407566071,
+    "latency_batch_size": 32
+  },
+  "snn_rn": {
+    "aggregation": "mean",
+    "params": 42784,
+    "fighting": {
+      "auroc": 0.4758490566037736,
+      "auroc_ci": [
+        0.3633867924528302,
+        0.5811415094339621
+      ],
+      "auprc": 0.49919068957003565,
+      "auprc_chance": 0.5145631067961165
+    },
+    "assault": {
+      "auroc": 0.508,
+      "auroc_ci": [
+        0.39157000000000003,
+        0.6172199999999999
+      ],
+      "auprc": 0.5391125155008778,
+      "auprc_chance": 0.5
+    },
+    "pooled": {
+      "auroc": 0.49145631067961165,
+      "auroc_ci": [
+        0.39630582524271846,
+        0.5893252427184467
+      ],
+      "auprc": 0.6778306785282229,
+      "auprc_chance": 0.673202614379085
+    },
+    "duration_only_auroc_pooled": 0.6103883495145631,
+    "threshold": 0.011866498738527298,
+    "confusion": [
+      [
+        44,
+        6
+      ],
+      [
+        92,
+        11
+      ]
+    ],
+    "precision": 0.6470588235294118,
+    "recall": 0.10679611650485436,
+    "f1_pos": 0.18333333333333332,
+    "macro_f1": 0.3282258064516129,
+    "normal_score_vs_eventrate_spearman": -0.2795198079231692,
+    "latency_ms_per_clip": 0.8871331810951233,
+    "latency_batch_size": 32,
+    "mean_spikes_per_clip_per_layer": [
+      29301.472916666666,
+      14836.2578125
+    ]
+  }
+}

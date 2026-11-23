@@ -2,3 +2,7 @@ dataset/
 *.npz
 
 processed/
+
+data/
+
+work/
