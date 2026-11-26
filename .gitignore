@@ -1,0 +1,10 @@
+dataset/
+*.npz
+
+processed/
+
+data/
+
+work/cache/
+work/labels/
+work/backup/
