@@ -14,10 +14,10 @@ Main result (T = 4, pooled frame-level AUROC, mean over 3 seeds): SNN-AE 0.694, 
 ## Repository contents
 
 ```
-COE476_proj_fixed_1.ipynb     main notebook (data inspection, models, training, evaluation, all experiments)
-data/
+COE476_proj.ipynb     main notebook (data inspection, models, training, evaluation, all experiments)
+data/ (needs to be added)
   cache.zip                   preprocessed event-count windows, one file per video
-  work_meta.zip               split manifest, frame labels, preprocessing info
+  work_meta.zip               split manifest, frame labels, preprocessing info 
 results/                      saved outputs (results.csv, summary.csv, cost.csv, per_class_T4.csv,
                               environment.txt and figures)
 requirements.txt              package versions used
