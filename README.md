@@ -18,7 +18,7 @@ COE476_proj.ipynb     main notebook (data inspection, models, training, evaluati
 data/ (needs to be added)
   cache.zip                   preprocessed event-count windows, one file per video
   work_meta.zip               split manifest, frame labels, preprocessing info 
-results/                      saved outputs (results.csv, summary.csv, cost.csv, per_class_T4.csv,
+work/                      saved outputs (results.csv, summary.csv, cost.csv, per_class_T4.csv,
                               environment.txt and figures)
 requirements.txt              package versions used
 README.md
